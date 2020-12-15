@@ -6,7 +6,7 @@
 - [vim](https://www.vim.org/download.php) (if not installed with homebrew)
 
 ### Dependencies
-- [tmux-plugins/tpm](https://https://github.com/tmux-plugins/tpm)
+- [tmux-plugins/tpm](https://github.com/tmux-plugins/tpm)
 - [reattach-to-user-namespace](https://formulae.brew.sh/formula/reattach-to-user-namespace)
 
 ### Settings
