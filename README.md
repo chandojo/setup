@@ -1,15 +1,15 @@
 
-## Apps to install
+### Pre-reqs
+Install these tools
 - [iTerm2](https://iterm2.com/)
 - [homebrew](https://zhttps://brew.sh/) 
-- [tmux](https://formulae.brew.sh/formula/tmux)
-- [vim](https://www.vim.org/download.php) (if not installed with homebrew)
 
-### Dependencies
-- [tmux-plugins/tpm](https://github.com/tmux-plugins/tpm)
-- [reattach-to-user-namespace](https://formulae.brew.sh/formula/reattach-to-user-namespace)
+### Setting up workspace
+After installing the pre-reqs, run `install-setup.sh` in this directory. Following a successful run of this script, your environment should be set up.
 
-### Settings
+### iTerm and Mac keyboard settings
+Edit the following settings in iTerm and Mac preferences to make sure your tools work efficiently
+
 - tmux automatically runs when opening iterm:
     - iTerm2 --> Preferences --> Profiles --> General --> Command (select "Command" in dropdown) --> "/usr/local/bin/tmux" or location of tmux
 
@@ -18,3 +18,10 @@
 
 - remap keys to use use mechanical keyboard with mac
 	- System Preferences --> Keyboard --> Modifier Keys --> Select Keyboard "USB KEYBOARD" --> Option Key = Command, Command Key = Option
+
+### Installed packages
+- tmux
+- nvim
+- reattach-to-user-namespace
+- httpie
+- pyenv

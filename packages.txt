@@ -1,0 +1,5 @@
+tmux
+nvim
+reattach-to-user-namespace
+httpie
+pyenv
