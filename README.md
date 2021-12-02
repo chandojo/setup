@@ -25,3 +25,4 @@ Edit the following settings in iTerm and Mac preferences to make sure your tools
 - reattach-to-user-namespace
 - httpie
 - pyenv
+- rbenv
