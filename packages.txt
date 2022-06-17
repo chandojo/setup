@@ -4,3 +4,4 @@ reattach-to-user-namespace
 httpie
 pyenv
 rbenv
+the_silver_searcher
