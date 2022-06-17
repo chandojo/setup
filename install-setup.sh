@@ -14,8 +14,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # on mac, change shell to bash
 chsh -s /bin/bash
 
-# copy tmux config 
-cp ./.tmux.conf ~/.tmux.conf && cp ./.vimrc ~/.vimrc
+# copy dotfiles
+cp dotfiles/.tmux.conf ~/.tmux.conf
+cp dotfiles/.vimrc ~/.vimrc
+cp dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
 
 # direct nvim to use .vimrc settings
 echo "directing nvim to use vimrc settings"
