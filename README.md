@@ -8,11 +8,12 @@ Install these tools
 After installing the pre-reqs, run `install-setup.sh` in this directory. Following a successful run of this script,
 install your vim plugins.
 
-`nvim ~/.config/nvim/init.vim`
-`:PlugInstall`
+1. `nvim ~/.config/nvim/init.vim`
+2. `:PlugInstall`
+3. `:wq`
+4. Restart your terminal
 
 Now, your environment should be set up.
-
 
 ### iTerm and Mac keyboard settings
 Edit the following settings in iTerm and Mac preferences to make sure your tools work efficiently
