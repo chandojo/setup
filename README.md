@@ -27,6 +27,9 @@ Edit the following settings in iTerm and Mac preferences to make sure your tools
 - remap keys to use use mechanical keyboard with mac
 	- System Preferences --> Keyboard --> Modifier Keys --> Select Keyboard "USB KEYBOARD" --> Option Key = Command, Command Key = Option
 
+### Testing changes
+Test changes by running this script on a Docker container
+
 ### Installed packages
 - tmux
 - nvim
