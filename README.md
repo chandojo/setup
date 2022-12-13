@@ -5,7 +5,7 @@ Install these tools
 - [homebrew](https://zhttps://brew.sh/) 
 
 ### Setting up workspace
-After installing the pre-reqs, run `install-setup.sh` in this directory. Following a successful run of this script,
+After installing the pre-reqs, run `initial-setup.sh` in this directory. Following a successful run of this script,
 install your vim plugins.
 
 1. `nvim ~/.config/nvim/init.vim`
