@@ -40,12 +40,9 @@ Plug 'tpope/vim-surround'
 " Vim-iced and dependencies
 Plug 'guns/vim-sexp', {'for': 'clojure'}
 Plug 'liquidz/vim-iced', {'for': 'clojure'}
-<<<<<<< HEAD
 
 " Conjure
 Plug 'Olical/conjure'
-=======
->>>>>>> main
 call plug#end()
 
 " Rainbow Parens
@@ -59,11 +56,7 @@ augroup END
 " vim-iced settings
 let g:iced_enable_default_key_mappings = v:true
 let g:iced_formatter = "cljstyle"
-<<<<<<< HEAD
 nmap <leader>jump :IcedDefJump<CR>
-=======
-
->>>>>>> main
 
 " FZF-VIM settings
 nmap <leader>F :FZF<CR>
@@ -71,13 +64,8 @@ nmap <leader>A :Ag<CR>
 nmap <leader>G :GFiles<CR>
 
 "vim-rhubarb settings
-<<<<<<< HEAD
 nmap <leader>GB :GBrowse<CR>
-nmap <leader>VGB :'<,'>GBrowse<CR>
-=======
-nmap <leader>gb :GBrowse<CR>
 
->>>>>>> main
 " clystyle
 augroup autoformat_settings
   autocmd FileType clojure AutoFormatBuffer cljstyle
